@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FBLogin</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+	</head>
+	<body>
+
+		<div id="mySidenav" class="sidenav">
+	  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  		<a href="#" id="hn">Home</a>
+	  		<a href="#">About</a>
+	  		<a href="#">Services</a>
+	  		<a href="#">Contact</a>
+		</div>
+
+		<h1>HOPE</h1>
+		<span onclick="openNav()"> &#9776; </span>
+		<hr style="clear:both; "/>
+
+
+		<div class="out_form_div">
+			<br>
+			<div class="form_div">
+				<form>
+					<br><br>
+					<label id="fblabel">facebook</label><br><br>
+					<label>login</label><br><br>
+					<input type="email" class="in" name="mail" placeholder="&#xf2b9;   Email or Phone"><br><br>
+					<input type="password" class="in" name="pass" placeholder="&#xf2b9;       Password"><br><br>
+					<input type="submit" id="loginbtn" value="login"><br><br>
+					<p><a href="#">forget password</a> or <a href="#">sign up</a></p>
+					<br><br>
+				</form>
+			</div>
+		</div>
+
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0px"
+			}
+
+			
+</script>
+
+
+	</body>
+</html>
